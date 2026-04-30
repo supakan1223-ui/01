@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "run cpp",
+      "type": "shell",
+      "command": "g++ ${file} -o ${fileDirname}/run && ${fileDirname}/run",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher" : []
+    }
+  ]
+}
